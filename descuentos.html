@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos en PCs - PC Store Sucre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="navbar bg-danger">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="d-flex">
+                <a href="index.html" class="text-white me-3">Inicio</a>
+                <a href="teclados.html" class="text-white me-3">Teclado</a>
+                <a href="audifonos.html" class="text-white me-3">Audífonos</a>
+                <a href="camara.html" class="text-white me-3">Cámara web</a>
+            </div>
+            <div class="logo">
+                <a href="#" class="text-white fs-5 fw-bold">Iniciar sesión</a>
+                <a href="carrito.html" class="text-white fs-5 fw-bold">🛒 Carrito</a>
+                <span class="text-white fs-5 fw-bold">PC STORE SUCRE</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Descuentos en PCs</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!-- PC con descuento 1 -->
+            <div class="col">
+                <div class="card">
+                    <img src="imagenes pc/8.jpg" class="card-img-top" alt="PC Gamer Razer Blade 15">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Blade 15</h5>
+                        <p class="card-text">Intel i7 | GPU NVIDIA RTX 3070 | Pantalla 15.6” 144Hz</p>
+                        <p class="card-text">PC gaming ultradelgada con potencia para juegos AAA y productividad.</p>
+                        <p class="text-danger"><strong>Antes: 2.000,00 BS</strong></p>
+                        <p class="text-success"><strong>Ahora: 1.600,00 BS</strong></p>
+                        <button class="btn btn-success agregar-carrito" data-id="1" data-nombre="Razer Blade 15" data-precio="1600" data-imagen="imagenes pc/8.jpg">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PC con descuento 2 -->
+            <div class="col">
+                <div class="card">
+                    <img src="imagenes pc/2.jpg" class="card-img-top" alt="HP Omen 30L">
+                    <div class="card-body">
+                        <h5 class="card-title">HP Omen 30L</h5>
+                        <p class="card-text">Intel i9 | GPU NVIDIA RTX 3080 | 32GB RAM</p>
+                        <p class="card-text">Potente PC gaming de alto rendimiento con una excelente refrigeración.</p>
+                        <p class="text-danger"><strong>Antes: 3.500,00 BS</strong></p>
+                        <p class="text-success"><strong>Ahora: 2.800,00 BS</strong></p>
+                        <button class="btn btn-success agregar-carrito" data-id="2" data-nombre="HP Omen 30L" data-precio="2800" data-imagen="imagenes pc/2.jpg">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PC con descuento 3 -->
+            <div class="col">
+                <div class="card">
+                    <img src="imagenes pc/11.jpg" class="card-img-top" alt="Dell Alienware Aurora R12">
+                    <div class="card-body">
+                        <h5 class="card-title">Dell Alienware Aurora R12</h5>
+                        <p class="card-text">Intel i7 | GPU NVIDIA RTX 3070 | 16GB RAM</p>
+                        <p class="card-text">Diseño futurista y alto rendimiento para juegos de última generación.</p>
+                        <p class="text-danger"><strong>Antes: 2.700,00 BS</strong></p>
+                        <p class="text-success"><strong>Ahora: 2.200,00 BS</strong></p>
+                        <button class="btn btn-success agregar-carrito" data-id="3" data-nombre="Dell Alienware Aurora R12" data-precio="2200" data-imagen="imagenes pc/11.jpg">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PC con descuento 4 -->
+            <div class="col">
+                <div class="card">
+                    <img src="imagenes/lap2.jpg" class="card-img-top" alt="Lenovo Legion Tower 5i">
+                    <div class="card-body">
+                        <h5 class="card-title">Lenovo Legion Tower 5i</h5>
+                        <p class="card-text">Intel i5 | GPU NVIDIA GTX 1660 | 8GB RAM</p>
+                        <p class="card-text">Una opción económica para quienes buscan jugar con un presupuesto ajustado.</p>
+                        <p class="text-danger"><strong>Antes: 1.500,00 BS</strong></p>
+                        <p class="text-success"><strong>Ahora: 1.200,00 BS</strong></p>
+                        <button class="btn btn-success agregar-carrito" data-id="4" data-nombre="Lenovo Legion Tower 5i" data-precio="1200" data-imagen="imagenes/lap2.jpg">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PC con descuento 5 -->
+            <div class="col">
+                <div class="card">
+                    <img src="laptop/4.jpg" class="card-img-top" alt="MSI Trident 3">
+                    <div class="card-body">
+                        <h5 class="card-title">MSI Trident 3</h5>
+                        <p class="card-text">Intel i5 | GPU NVIDIA GTX 1660 Ti | 16GB RAM</p>
+                        <p class="card-text">PC compacta con buen rendimiento para juegos a 1080p y streaming.</p>
+                        <p class="text-danger"><strong>Antes: 1.800,00 BS</strong></p>
+                        <p class="text-success"><strong>Ahora: 1.500,00 BS</strong></p>
+                        <button class="btn btn-success agregar-carrito" data-id="5" data-nombre="MSI Trident 3" data-precio="1500" data-imagen="laptop/4.jpg">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Contacto -->
+                <div class="col-md-4 mb-4">
+                    <h5>Informacion</h5>
+                    <p><a href="acercade.html" class="footer-link">Acerca de</a></p>
+                    <p><a href="contactos.html" class="footer-link">Contactos</a></p>
+                    <p><a href="Formulario.html" class="footer-link">Formulario</a></p>
+                    <p><a href="Creadores.html" class="footer-link">Creadores</a></p>
+                    
+                    
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Preguntas</h5>
+                    <p><a href="comocomprar.html" class="footer-link">Como comprar</a></p>
+                    <p><a href="pqcomprar.html" class="footer-link">Porque comprar en nuestra tienda</a></p>
+                    <p><a href="quehace.html" class="footer-link">Que hace nuestra pagina en especial</a></p>
+                    <p><a href="sepamas.html" class="footer-link">Sepa mas de computadoras</a></p>
+                    <p><a href="proposito.html" class="footer-link">Cual es nuestro proposito</a></p>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <h5>Redes Sociales</h5>
+                    <p>📞 Teléfono: 69949446</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/pcstoresucre" target="_blank" class="social-link">
+                            <img src="facebook-icon.png" alt="Facebook" class="social-icon">
+                        </a>
+                        <a href="https://instagram.com/pcstoresucre" target="_blank" class="social-link">
+                            <img src="instagram-icon.png" alt="Instagram" class="social-icon">
+                        </a>
+                        <a href="https://twitter.com/pcstoresucre" target="_blank" class="social-link">
+                            <img src="twitter-icon.png" alt="Twitter" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+    
+            
+    
+            <!-- Copyright -->
+            <div class="text-center mt-4">
+                <p>&copy; 2024 PC Store Sucre. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="carrito.js"></script>
+
+</body>
+</html>

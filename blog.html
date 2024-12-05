@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - PC Store Sucre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilo para el fondo oscuro y textos claros */
+        body {
+            background-color: #121212; /* Fondo oscuro */
+            color: #e1e1e1; /* Texto claro para contraste */
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Barra de navegación */
+        .navbar {
+            background-color: #1f1f1f;
+        }
+        .navbar a {
+            color: #ffffff !important;
+        }
+
+        /* Encabezado */
+        .header {
+            text-align: center;
+            padding: 80px 0;
+            background-color: #333;
+            color: #e63946;
+        }
+        .header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .header p {
+            font-size: 1.2rem;
+            color: #aaa;
+        }
+
+        /* Sección de publicaciones */
+        .blog-post {
+            background-color: #1f1f1f;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .blog-post h2 {
+            color: #e63946;
+            font-size: 2rem;
+        }
+        .blog-post p {
+            color: #bbb;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .blog-post .post-date {
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #1f1f1f;
+            color: #e1e1e1;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: #e63946;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Estilo para los botones */
+        .btn-dark {
+            background-color: #e63946;
+            border-color: #e63946;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+        .btn-dark:hover {
+            background-color: #d62c1a;
+            border-color: #d62c1a;
+        }
+
+        /* Estilo para las imágenes */
+        .blog-post img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* Responsivo */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            .blog-post h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-weight:bold;">PC STORE SUCRE</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="soporte.html">Soporte Técnico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="garantias.html">Garantías</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Encabezado de Blog -->
+    <div class="header">
+        <h1>Bienvenido al Blog de PC Store Sucre</h1>
+        <p>Entérate de las últimas noticias, lanzamientos y consejos sobre tecnología y productos de PC</p>
+    </div>
+
+    <!-- Contenido principal del Blog -->
+    <div class="container">
+        <!-- Publicación 1 -->
+        <div class="blog-post">
+            <h2>5 Consejos para Optimizar tu PC</h2>
+            <p class="post-date">Publicado el 22 de Noviembre de 2024</p>
+            <p>¿Tu PC está lento? Aquí te damos algunos consejos para optimizar tu computadora y mejorar su rendimiento. Desde la limpieza de archivos hasta la actualización de drivers, cubrimos todo lo que necesitas saber para sacar el máximo provecho de tu equipo.</p>
+            <img src="img/post1.jpg" alt="Optimización de PC">
+            <br>
+            <a href="consejosoptimizar.html" class="btn btn-dark mt-3">Leer más</a>
+        </div>
+
+        <!-- Publicación 2 -->
+        <div class="blog-post">
+            <h2>¿Qué hacer cuando tu PC no arranca?</h2>
+            <p class="post-date">Publicado el 18 de Noviembre de 2024</p>
+            <p>¿Te ha pasado que tu PC no enciende y no sabes qué hacer? No te preocupes, en este artículo te explicamos los pasos para diagnosticar el problema y posibles soluciones, desde verificar la fuente de alimentación hasta revisar problemas de hardware.</p>
+            <img src="img/post2.jpg" alt="PC no arranca">
+            <br>
+            <a href="pcnofunca.html" class="btn btn-dark mt-3">Leer más</a>
+        </div>
+
+        <!-- Publicación 3 -->
+        <div class="blog-post">
+            <h2>Las Mejores Placas Base para PC Gamer</h2>
+            <p class="post-date">Publicado el 12 de Noviembre de 2024</p>
+            <p>¿Estás buscando una placa base de calidad para tu PC Gamer? Te mostramos las mejores opciones del mercado, desde placas base con soporte para overclocking hasta las que cuentan con las mejores características de conectividad.</p>
+            <img src="img/post3.jpg" alt="Placas Base Gamer">
+            <br>
+            <a href="mejores.html" class="btn btn-dark mt-3">Leer más</a>
+        </div>
+
+        
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 PC Store Sucre. Todos los derechos reservados.</p>
+        <p><a href="contactos.html">Contáctanos</a> | <a href="sepamas.html">Sepa mas de computadoras</a></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
